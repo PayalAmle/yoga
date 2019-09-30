@@ -7,12 +7,23 @@
     android:background="@drawable/back"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/click"
+        android:text="CLICK TO START TRAINING"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_marginTop="230dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Casual"/>
+
     <ImageView
         android:id="@+id/btnTraining"
         android:layout_centerInParent="true"
         android:src="@drawable/play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
 
     <LinearLayout
         android:layout_alignParentBottom="true"
@@ -57,7 +68,7 @@
         <Button
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:id="@+id/btncalendar"
+            android:id="@+id/btnCalendar"
             android:text="Calendar"
             android:textColor="@android:color/white"
             android:layout_marginLeft="8dp"

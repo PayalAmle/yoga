@@ -20,6 +20,16 @@ public class MainActivity extends AppCompatActivity {
         btnExercises = (Button)findViewById(R.id.btnExercises);
         btnSetting = (Button)findViewById(R.id.btnSetting);
         btnTraining = (ImageView)findViewById(R.id.btnTraining);
+        btnCalendar = (Button)findViewById(R.id.btnCalendar);
+
+        btnCalendar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Calendar.class);
+                startActivity(intent);
+            }
+        });
+
 
         btnTraining.setOnClickListener(new View.OnClickListener() {
             @Override

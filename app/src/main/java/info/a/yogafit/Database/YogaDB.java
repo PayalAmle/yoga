@@ -65,7 +65,7 @@ public class YogaDB extends SQLiteAssetHelper {
     public void saveDay(String value)
     {
         SQLiteDatabase db = getReadableDatabase();
-        String query = String.format("INSERT INTO WorkoutDays(Day)VALUES('%s');",value);
+        String query = String.format("INSERT INTO WorkoutDays(Day) VALUES('%s');",value);
         db.execSQL(query);
     }
 }
