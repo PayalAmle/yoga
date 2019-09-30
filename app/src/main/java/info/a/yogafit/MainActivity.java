@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnExercises,btnSetting,btnCalendar;
+    Button btnExercises,btnSetting,btnCalendar,btnVideo;
     ImageView btnTraining;
 
     @Override
@@ -21,6 +21,16 @@ public class MainActivity extends AppCompatActivity {
         btnSetting = (Button)findViewById(R.id.btnSetting);
         btnTraining = (ImageView)findViewById(R.id.btnTraining);
         btnCalendar = (Button)findViewById(R.id.btnCalendar);
+        btnVideo = (Button)findViewById(R.id.btnVideo);
+
+
+        btnVideo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,VideoActivity.class);
+                startActivity(intent);
+            }
+        });
 
         btnCalendar.setOnClickListener(new View.OnClickListener() {
             @Override
