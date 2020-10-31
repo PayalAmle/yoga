@@ -16,7 +16,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Calendar"></activity>
         <activity android:name=".VideoActivity"/>
-        <activity android:name=".Daily_Training" />
+        <activity android:name=".Daily_Training1" />
         <activity android:name=".SettingPage" />
         <activity android:name=".ViewExercise" />
         <activity android:name=".ListExercises" />
