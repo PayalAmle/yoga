@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Calendar"></activity>
-        <activity android:name=".VideoActivity"/>
+        <activity android:name=".VideoActivity1"/>
         <activity android:name=".Daily_Training1" />
         <activity android:name=".SettingPage" />
         <activity android:name=".ViewExercise" />
